@@ -1,0 +1,12 @@
+# DTOs use Moshi reflection; keep their constructor/property names.
+-keep class com.carcare.analytics.core.network.** { *; }
+-keep class com.carcare.analytics.feature.logbook.JournalRecordDto { *; }
+-keep class com.carcare.analytics.feature.logbook.JournalPage { *; }
+-keep class com.carcare.analytics.feature.logbook.TimelineDto { *; }
+-keep enum com.carcare.analytics.feature.logbook.** { *; }
+-keep class com.carcare.analytics.feature.insights.** { *; }
+-keepnames class com.carcare.analytics.feature.reminders.ReminderWorker
+-keep class com.carcare.analytics.feature.forecast.ForecastDto { *; }
+-keep class com.carcare.analytics.feature.forecast.ForecastMonth { *; }
+-keep class com.carcare.analytics.feature.forecast.ForecastMethod { *; }
+-keep class com.carcare.analytics.feature.forecast.ForecastEvaluation { *; }

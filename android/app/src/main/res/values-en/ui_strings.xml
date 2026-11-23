@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Settings</string>
+    <string name="app_language">App language</string>
+    <string name="close_dialog">Close</string>
+    <string name="nav_garage">Garage</string>
+    <string name="nav_overview">Overview</string>
+    <string name="pick_date">Choose a date</string>
+    <string name="loading">Loading</string>
+    <string name="overview_period_total">Expenses for the period</string>
+    <string name="journal_show_more">Show more</string>
+    <string name="hide_analytics">Hide analytics</string>
+    <string name="more_analytics">Show details</string>
+    <string name="forecast_link">Forecast →</string>
+    <string name="refresh_data">Refresh data</string>
+    <string name="done">Done</string>
+    <string name="period_short">Period</string>
+    <string name="liters_per_100_unit">L/100 km</string>
+    <string name="pln_per_km_unit">PLN/km</string>
+    <string name="chart_empty">No expenses yet\nAdd your first entry</string>
+    <string name="deadline_missed">Overdue</string>
+    <string name="distance_left">%1$s km left</string>
+    <string name="view_deadline">View due date</string>
+    <string name="journal_no_matches">No matching entries</string>
+    <string name="journal_no_matches_hint">Change the dates or reset the filters</string>
+    <string name="journal_reset_filter">Reset filters</string>
+    <string name="journal_empty">No entries yet</string>
+    <string name="add_short">Add</string>
+    <string name="refuelings_plural">Refuellings</string>
+    <string name="expenses_plural">Expenses</string>
+    <string name="range_start">From %1$s</string>
+    <string name="journal_default_period">Leave dates blank to see the full history.</string>
+    <string name="show_operations">Show entries</string>
+    <string name="initial_mileage_entry">Initial mileage</string>
+    <string name="error_invalid_credentials">Incorrect email address or password</string>
+    <string name="error_email_exists">This email address is already registered</string>
+    <string name="error_check_fields">Check the details you entered</string>
+    <string name="error_export_too_large">The file is too large. Choose a shorter period.</string>
+    <string name="error_invalid_filter">This filter does not apply to this section</string>
+    <string name="error_source_managed">Edit or delete the original refuelling or service entry</string>
+    <string name="error_invalid_field">Check the value in this field</string>
+    <string name="error_mileage_bounds">Mileage does not match adjacent entries. Minimum: %1$s km, maximum: %2$s km.</string>
+    <string name="error_mileage_min">Mileage does not match adjacent entries. Minimum: %1$s km.</string>
+</resources>

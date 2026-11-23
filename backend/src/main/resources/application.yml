@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: carcare-api
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/carcare}
+    username: ${DATABASE_USER:carcare}
+    password: ${DATABASE_PASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate.jdbc.time_zone: UTC
+  flyway:
+    enabled: true
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+      accept-float-as-int: false
+server:
+  error:
+    include-message: never
+    include-stacktrace: never
+  shutdown: graceful
+app:
+  jwt:
+    secret: ${JWT_SECRET}
+    issuer: carcare-api
+    ttl: PT1H
+springdoc:
+  api-docs.enabled: false
+  swagger-ui.enabled: false
+logging:
+  level:
+    org.hibernate.engine.jdbc.spi.SqlExceptionHelper: OFF

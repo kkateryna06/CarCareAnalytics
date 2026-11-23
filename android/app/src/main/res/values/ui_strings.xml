@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Ustawienia</string>
+    <string name="app_language">Język aplikacji</string>
+    <string name="close_dialog">Zamknij</string>
+    <string name="nav_garage">Garaż</string>
+    <string name="nav_overview">Przegląd</string>
+    <string name="pick_date">Wybierz datę</string>
+    <string name="loading">Wczytywanie</string>
+    <string name="overview_period_total">Wydatki w tym okresie</string>
+    <string name="journal_show_more">Pokaż więcej</string>
+    <string name="hide_analytics">Ukryj analizę</string>
+    <string name="more_analytics">Szczegóły</string>
+    <string name="forecast_link">Prognoza →</string>
+    <string name="refresh_data">Odśwież dane</string>
+    <string name="done">Gotowe</string>
+    <string name="period_short">Okres</string>
+    <string name="liters_per_100_unit">l/100 km</string>
+    <string name="pln_per_km_unit">PLN/km</string>
+    <string name="chart_empty">Brak wydatków\nDodaj pierwszy wpis</string>
+    <string name="deadline_missed">Po terminie</string>
+    <string name="distance_left">Pozostało %1$s km</string>
+    <string name="view_deadline">Zobacz termin</string>
+    <string name="journal_no_matches">Nie znaleziono wpisów</string>
+    <string name="journal_no_matches_hint">Zmień daty lub wyczyść filtry</string>
+    <string name="journal_reset_filter">Wyczyść filtry</string>
+    <string name="journal_empty">Dziennik jest pusty</string>
+    <string name="add_short">Dodaj</string>
+    <string name="refuelings_plural">Tankowania</string>
+    <string name="expenses_plural">Wydatki</string>
+    <string name="range_start">Od %1$s</string>
+    <string name="journal_default_period">Zostaw daty puste, aby zobaczyć całą historię.</string>
+    <string name="show_operations">Pokaż wpisy</string>
+    <string name="initial_mileage_entry">Przebieg początkowy</string>
+    <string name="error_invalid_credentials">Nieprawidłowy adres e-mail lub hasło</string>
+    <string name="error_email_exists">Ten adres e-mail jest już zarejestrowany</string>
+    <string name="error_check_fields">Sprawdź wprowadzone dane</string>
+    <string name="error_export_too_large">Plik jest za duży. Wybierz krótszy okres.</string>
+    <string name="error_invalid_filter">Ten filtr nie jest dostępny w tej sekcji</string>
+    <string name="error_source_managed">Zmień lub usuń źródłowy wpis tankowania albo serwisu</string>
+    <string name="error_invalid_field">Sprawdź wartość w tym polu</string>
+    <string name="error_mileage_bounds">Przebieg nie pasuje do sąsiednich wpisów. Minimum: %1$s km, maksimum: %2$s km.</string>
+    <string name="error_mileage_min">Przebieg nie pasuje do sąsiednich wpisów. Minimum: %1$s km.</string>
+</resources>
